@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Force Desktop URL",
+  "name": "Wikipedia Mobile to Desktop URL Redirect",
   "version": "1.0",
-  "description": "Forces wikipedia mobile URLs to open on the desktop site. This is particularly annoying for Wikipedia Darkmode users as the mobile site does not preserve darkmode and the UI is different. Ex. https://en.m.wikipedia.org/wiki/George_Washington -> https://en.wikipedia.org/wiki/George_Washington",
-  "permissions": ["webRequest", "webRequestBlocking", "declarativeNetRequest", "tabs"],
+  "description": "Redirects Wikipedia mobile URLs to the desktop version.",
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": [
     "*://*.m.wikipedia.org/*"
   ],
